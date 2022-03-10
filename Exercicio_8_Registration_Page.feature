@@ -2,7 +2,7 @@
 Feature: Registration page
 
     Feature Description
-    as an EBAC-SHOP customer
+    as an Ecommerce customer
     i want to complete my registration
     to finalize my purchase
 
@@ -42,5 +42,3 @@ Feature: Registration page
       | "John" | "Connors" | "United States" | "Cyberdyne Systems Avenue" | "Los Angeles" | "90001" | "33556677"  | "jconnors!schwarzenegger.com" | "Invalid email"                   |
       | "John" | "Connors" | "United States" | "Cyberdyne Systems Avenue" | "Los Angeles" | "90001" | "33556677"  | "jconnors$schwarzenegger.com" | "Invalid email"                   |
       | "John" | "Connors" | "United States" | "Cyberdyne Systems Avenue" | "Los Angeles" | "90001" | "33556677"  | "jconnors schwarzenegger.com" | "Invalid email"                   |
-
-

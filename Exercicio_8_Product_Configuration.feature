@@ -1,7 +1,7 @@
 Feature: Product Configuration
 
     Feature Description
-    as an EBAC-SHOP customer
+    as an Ecommerce customer
     i want to configure my product according to my size and taste
     and choose the quantitya
     and then insert into the cart

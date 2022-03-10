@@ -1,7 +1,7 @@
 Feature: Login to the platform
 
     Feature Description
-    as an EBAC-SHOP customer
+    as an Ecommerce customer
     i want to log in authentication on the platform
     to view my orders
 
@@ -15,11 +15,11 @@ Feature: Login to the platform
     Then correct behavior is <behavior>
 
     Examples:
-      | login            | password            | behavior                                       |
-      | "correctlogin"   | "correctpassword"   | "direct user to checkout page"                 |
-      | "incorrectlogin" | "correctpassword"   | "show the message -> Invalid user or password" |
-      | "correctlogin"   | "incorrectpassword" | "show the message -> Invalid user or password" |
-      | "incorrectlogin" | "incorrectpassword" | "show the message -> Invalid user or password" |
+      | login                            | password            | behavior                                       |
+      | "johnconnors@schwarzenegger.com" | "correctpassword"   | "direct user to checkout page"                 |
+      | "johnconnor#schwarzenegger.com"  | "correctpassword"   | "show the message -> Invalid user or password" |
+      | "johnconnors@schwarzenegger.com" | "incorrectpassword" | "show the message -> Invalid user or password" |
+      | "johnconnor$schwarzenegger.com"  | "incorrectpassword" | "show the message -> Invalid user or password" |
 
 
 
